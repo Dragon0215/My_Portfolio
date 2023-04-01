@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dragon.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/image/logo.jpg">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/shared.css">
+        <!-- <link rel="stylesheet" href="./css/contact.css"> -->
+        <link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    </head>
+    <body>
+    <!-- Header navigation menu -->
+
+        <header class="main-header">
+            <div class="container justify-content-between">
+                <div class="main-header__brand">
+                    <a href="index.html">
+                        <img src="./image/logo.jpg" alt="Logo">
+                    </a>
+                </div>
+                <nav class="main-navigation">
+                    <ul class="main-navigation__items text-primary">
+                        <li class="main-navigation__item btn btn-outline-primary active">
+                            <a href="#">Asosiy</a>
+                        </li>
+                        <li class="main-navigation__item btn btn-outline-primary">
+                            <a href="#about-me">Men haqimda</a>
+                        </li>
+                        <li class="main-navigation__item btn btn-outline-primary">
+                            <a href="#services">Xizmatlar</a>
+                        </li>
+                        <li class="main-navigation__item btn btn-outline-primary">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="main-navigation__item btn btn-outline-primary">
+                            <a href="#clients">Mijozlar</a>
+                        </li>                        
+                    </ul>
+                </nav>
+                <div class="modal-okno">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Bog'lanish
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header d-flex justify-content-center">
+                                    <h1 class="modal-title fs-5 text-primary" id="exampleModalLabel">Xabar yuborish</h1>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <input type="text" class="form-control" placeholder="Ismingiz...">
+                                    <input type="email" class="form-control mt-2 mb-2" placeholder="Email...">
+                                    <textarea class="form-control" placeholder="Xabar kiriting..." rows="5"></textarea>
+                                    <div class="d-flex justify-content-around mt-2">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+                                        <input type="button" value="Yuborish" class="btn btn-primary" data-bs-dismiss="modal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <!-- /Header navigation menu -->
+
+    <!-- Bosh sahifa -->
+
+        <div class="main-banner">
+            <div class="container">
+                <section id="main-section" class="main-section">
+                    <div class="main-section__info">
+                        <h4 class="main-section__welcome to-uppercase">Salom hammaga</h4>
+                        <h1 class="main-section__introduction to-uppercase">Mening ismim Ilyosbek</h4>
+                        <h3 class="main-section__position to-uppercase">Front-end dasturchi</h4>
+                        <div class="main-section__social-networks">
+                            <a href="https://t.me/Dragon_quick">
+                                <i class="fab fa-telegram"> Telegram</i>
+                            </a>
+                            <a href="https://instagram.com/muslim_uchun">
+                                <i class="fab fa-instagram"> Instagram</i>
+                            </a>
+                            <a href="https://facebook.com/Ilyosbek Abdurayimov">
+                                <i class="fab fa-facebook"> Facebook</i>
+                            </a>
+                            <a href="https://twitter.com/Dragonuz15">
+                                <i class="fab fa-twitter"> Twitter</i>
+                            </a>
+                            <a href="https://pin.it/2qy7Mdw">
+                                <i class="fab fa-pinterest"> Pinterest</i>
+                            </a>                          
+                            <a href="https://www.linkedin.com/in/dragon-quick">
+                                <i class="fab fa-linkedin"> Linkedin</i>
+                            </a>                          
+                        </div>
+                        <a href="https://github.com/Dragon0215">
+                            <button type="button" class="button main-section__action to-uppercase">
+                                Portfolio
+                            </button>
+                        </a>
+                    </div>
+                    <div class="main-section__image">
+                        <img src="./image/mylogo.png" alt="My image">
+                    </div>
+                </section>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    <!-- /Bosh sahifa -->
+
+    <!-- Statistics -->
+
+        <div class="container">
+            <section id="statistics" class="statistics">
+                <div class="statistics__item border rounded">
+                    <h3 class="statistics__number statistics__number1"></h3>
+                    <p class="statistics__title">
+                        Hursand mijozlar
+                    </p>
+                </div>
+                <div class="statistics__item border rounded">
+                    <h3 class="statistics__number statistics__number2"></h3>
+                    <p class="statistics__title">
+                        Yordam
+                    </p>
+                </div>
+                <div class="statistics__item border rounded">
+                    <h3 class="statistics__number statistics__number3"></h3>
+                    <p class="statistics__title">
+                        O'rtacha reyting
+                    </p>
+                </div>
+            </section>
+        </div>
+    <!-- /Statistics -->
+
+    <!-- Men haqimda -->
+
+        <div class="container">
+            <section id="about-me" class="about-me">
+                <div class="about-me__info">
+                    <h5 class="section-subtitle">
+                        Men haqimda
+                        <span class="blur-line"></span>
+                    </h5>
+                    <div class="box border border-3 rounded p-4">
+                        <div class="row">
+                            <div class="col-2 d-flex justify-content-center">
+                                <img src="./image/mephptp.jpg" alt="img">
+                            </div>
+                            <div class="col-10">
+                                <p class="section-title">Ilyosbek Abdurayimov</p>
+                                <p class="section-subtitle">Front-end dasturchi</p>
+                            </div>
+                        </div>
+                        <div class="row px-4">
+                            <p class="about-me__description">
+                                Mening ismim Ilyosbek.Men hozirda <span class="age"></span> yoshdaman.
+                                Men bir necha yildan buyon dasturlashga qiziqaman. <br>
+                                Bir nechta dasturlash tillarini o'rganganman.
+                                Lekin menga web dasturlash yo'nalishi yoqadi. <br>
+                                Shuning uchun men web dasturchi bo'lishga qaror qildim.
+                                Men bir nechta texnalogiyalarda ishlay olaman, ular: <br>
+                                <ul class="d-flex about-me__description text-success row">
+                                    <li class="mx-4 col-auto">Html</li>
+                                    <li class="mx-4 col-auto">Css</li>
+                                    <li class="mx-4 col-auto">Scss</li>
+                                    <li class="mx-4 col-auto">Bootstrap</li>
+                                    <li class="mx-4 col-auto">JavaScript</li>
+                                    <li class="mx-4 col-auto">TypeScript</li>
+                                    <li class="mx-4 col-auto">Vue.js</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <h3 class="section-title">
+                        Front-end dasturchi
+                    </h3>
+                    <p class="about-me__description">
+                        Mening ismim Ilyosbek.Men hozirda 18 yoshdaman. <br>
+                        Hozirda men mustaqil ish tayyorlamoqdaman.<br>
+                        Men buni ishlab chiqyapman.
+                    </p>
+                    <button type="button" class="button to-uppercase about-me__action">
+                        CV ko'chirib olish
+                    </button> -->
+                </div>
+            </section>
+            <div class="clearfix"></div>
+        </div>
+    <!-- /Men haqimda -->
+
+    <!-- Mening xizmatlarim -->
+
+        <div class="container">
+            <section id="services" class="services">
+                <h5 class="section-subtitle">
+                    Mening xizmatlarim
+                    <span class="blur-line"></span>
+                </h5>
+                <h2 class="section-title">
+                    Men taklif <br>
+                    qiladigan xizmatlar
+                </h2>
+                <div class="services__cards row">
+                    <div class="service-card col-3">
+                        <img class="service-card__icon" src="./image/service-1.png" alt="Service 1">
+                        <h5 class="service-card__title">Web sayt verstka </h5>
+                        <p class="service-card__description">
+                            Men sizga web saytni verstka qilishda yordam beraman.
+                        </p>
+                        <a href="#" class="service-card__link">
+                            Ko'proq
+                        </a>
+                    </div>
+    
+                    <div class="service-card col-3">
+                        <img class="service-card__icon" src="./image/service-2.png" alt="Service 2">
+                        <h5 class="service-card__title">Web dizayn</h5>
+                        <p class="service-card__description">
+                            Men sizga web saytni front-end (old ko'rinishi) qismini tayyorlab berishim mumkun.
+                        </p>
+                        <a href="#" class="service-card__link">
+                            Ko'proq
+                        </a>
+                    </div>
+    
+                    <div class="service-card col-3">
+                        <img class="service-card__icon" src="./image/service-3.png" alt="Service 3">
+                        <h5 class="service-card__title">Web dasturlash</h5>
+                        <p class="service-card__description">
+                            Men sizga o'ziz istagan web saytni qisqa muddat ichida havfsiz va ideal ko'rinishda topshiraman.
+                        </p>
+                        <a href="#" class="service-card__link">
+                            Ko'proq
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <!-- /Mening xizmatlarim -->
+    
+    <!-- Portfolio -->
+
+        <div class="container">
+            <section id="portfolio" class="portfolio">
+                <div class="section-subtitle">
+                    Mening ishlarim
+                    <span class="blur-line"></span>
+                </div>
+                <div class="section-title">
+                    Mening oxirgi <br>
+                    ishlarimni ko'ring
+                </div>
+                <ul class="portfolio-filters">
+                    <li class="active">
+                        Hammasi
+                    </li>
+                    <li>
+                        Mashxurlari
+                    </li>
+                    <li>
+                        Oxirgilari
+                    </li>
+                </ul>
+                <div class="portfolio-items">
+                    <div class="portfolio-item portfolio-item-1">
+                        <h4 class="text-center">IT texnikum rasmiy veb sayti</h4>
+                        <div class="content">
+                            <a href="https://ittexnikum.uz/">
+                                <div class="screen" title="Saytga o'tib ko'rish">
+                                    <img src="./image/portfolio-1.png" alt="Portfolio image 1" class="portfolio-item__image screen1">
+                                </div>                        
+                            </a>
+                        </div><!--content-->
+                    </div>
+                    <div class="portfolio-item portfolio-item-2">
+                        <h4 class="text-center">Mettallurgiya veb sayti</h4>
+                        <div class="content">
+                            <a href="http://metalist.uz">
+                                <div class="screen" title="Saytga o'tib ko'rish">
+                                    <img src="./image/portfolio-2.png" alt="Portfolio image 2" class="portfolio-item__image screen2">
+                                </div>
+                            </a>
+                        </div><!--content-->
+                    </div>
+                    <div class="portfolio-item portfolio-item-3">
+                        <h4 class="text-center">Shox Hospital veb sayti</h4>
+                        <div class="content">
+                            <a href="http://shoxhospital.uz">
+                                <div class="screen" title="Saytga o'tib ko'rish">
+                                    <img src="./image/portfolio-3.png" alt="Portfolio image 3" class="portfolio-item__image screen3">
+                                </div>
+                            </a>
+                        </div><!--content-->
+                    </div>
+                    <div class="portfolio-item portfolio-item-4">
+                        <h4 class="text-center">Shox Milk veb sayti</h4>
+                        <div class="content">
+                            <a href="http://shox-milk.uz">
+                                <div class="screen" title="Saytga o'tib ko'rish">
+                                    <img src="./image/portfolio-4.png" alt="Portfolio image 4" class="portfolio-item__image screen4">
+                                </div>
+                            </a>
+                        </div><!--content-->
+                    </div>
+                </div>
+            </section>
+        </div>
+    <!-- /Portfolio -->
+
+    <!-- Mening mijozlarim -->
+
+        <div class="container">
+            <section id="clients" class="clients">
+                <h5 class="section-subtitle">
+                    Mening mijozlarim
+                    <span class="blur-line"></span>
+                </h5>
+                <h2 class="section-title">
+                    Hurmatli mijozlarim <br>
+                    men haqimda
+                </h2>
+                <div class="cart border border-3 rounded p-2">
+                    <div class="row">
+                        <div class="col-1">
+                            <img class="ms-2" src="./image/Fozilov.jpg" alt="">
+                        </div>
+                        <div class="col-6 d-flex">
+                            <p class="cart-title d-flex align-items-center m-0"><b>Fozilov Murodjon</b></p>
+                            <p class="ms-3 d-flex align-items-center m-0"><i><u>Foydalanuvchi</u></i></p>
+                        </div>
+                        <div class="col-5 d-flex justify-content-center">
+                            <i class="fas fa-star mt-3 ms-2"></i>
+                            <i class="fas fa-star mt-3 ms-2"></i>
+                            <i class="fas fa-star mt-3 ms-2"></i>
+                            <i class="fas fa-star mt-3 ms-2"></i>
+                            <i class="fas fa-star mt-3 ms-2"></i>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <p class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
+                                Menga sizning qilgan ishlaringiz juda yoqdi.Ishlaringizga omad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart border border-3 rounded p-2">
+                    <div class="row">
+                        <div class="col-1">
+                            <img class="ms-2" src="./image/mephptp.jpg" alt="">
+                        </div>
+                        <div class="col-6 d-flex">
+                            <p class="cart-title d-flex align-items-center m-0"><b>John Alex</b></p>
+                            <p class="ms-3 d-flex align-items-center m-0"><i><u>Foydalanuvchi</u></i></p>
+                        </div>
+                        <div class="col-5 d-flex justify-content-center">
+                            <i class="fas fa-star mt-3 ms-2"></i>
+                            <i class="fas fa-star mt-3 ms-2"></i>
+                            <i class="fas fa-star mt-3 ms-2"></i>
+                            <i class="fas fa-star mt-3 ms-2"></i>
+                            <i class="fas fa-star mt-3 ms-2 color-dark"></i>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <p class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dignissimos iusto, facilis a hic ea beatae, perferendis quos placeat, odit maxime debitis? Architecto suscipit laboriosam eos, animi veritatis, repellat iusto, vel provident illo dolorum sunt corporis harum aliquam facilis a. Officia, est! Repellendus, ut reprehenderit. Perferendis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="clearfix"></div>
+        </div>
+    <!-- /Mening mijozlarim -->
+
+
+    <!-- footer -->
+
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer__navigation">
+                    <ul class="footer__navigation-items">
+                        <li class="footer__navigation-item">
+                            <a href="#main-section">Asosiy</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="#main-section">Men haqimda</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="#services">Xizmatlar</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="#clients">Mijozlar</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="footer__socials">
+                    <li class="footer__social">
+                        <a href="https:\\t.me\dragon_quick">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </li>
+                    <li class="footer__social">
+                        <a href="https://instagram.com/muslim_uchun">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="footer__social">
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p class="footer__text">
+                    Copyright @2022 | Made with <span><a href="https:\\t.me\dragon_quick" style="text-decoration: none; color: green;">Dragon</a></span>
+                </p>
+            </div>
+        </footer>
+    <!-- /footer -->
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>
